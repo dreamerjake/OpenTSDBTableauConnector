@@ -21,7 +21,7 @@
             <div class="text-center col-md-4 col-md-offset-4">
                 <p>
                     Server:
-                <input class="form-control" type='text' id='server' value="tsdb.lldns.net">
+                <input class="form-control" type='text' id='server' value="127.0.0.1">
                 </p>
                 <p>
                     Port:
@@ -46,7 +46,7 @@
                     </span>
                 </div>
                 <p>
-                    Enter the name of the metric: <input type="text" id="metric" value="app.iperf3.retransmits" onchange="updatePage()">
+                    Enter the name of the metric: <input type="text" id="metric" placeholder="Metric" onchange="updatePage()">
                 </p>
                 <div id="tags"></div>
                 <p>
