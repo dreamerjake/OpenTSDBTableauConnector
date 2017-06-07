@@ -62,8 +62,6 @@ function getTagsFromHtml() {
     return tags;
 }
 
-
-
 (function () {
     var myConnector = tableau.makeConnector();
 
