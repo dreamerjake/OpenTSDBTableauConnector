@@ -19,39 +19,23 @@
     <div class="container container-table">
         <div class="row vertical-center-row">
             <div class="text-center col-md-4 col-md-offset-4">
-                <p>
-                    Server:
-                <input class="form-control" type='text' id='server' value="127.0.0.1">
-                </p>
-                <p>
-                    Port:
+                <input class="form-control" type='text' id='server' placeholder="Server">
                 <input class="form-control" type="text" id="port" value="4242">
-                </p>
-                <p>
-                    Start:
-                </p>
                 <div class="input-group date" id="start_datetime">
                     <input type="text" class="form-control start_time" name="start_time" value="2017/06/04-14:00:00">
                     <span class="input-group-addon">
                         <span class="glyphicon glyphicon-calendar"></span>
                     </span>
                 </div>
-                <p>
-                    End:
-                </p>
                 <div class="input-group date" id="end_datetime">
                     <input type="text" class="form-control end_time" name="end_time" value="2017/06/04-14:30:00">
                     <span class="input-group-addon">
                         <span class="glyphicon glyphicon-calendar"></span>
                     </span>
                 </div>
-                <p>
-                    Enter the name of the metric: <input type="text" id="metric" placeholder="Metric" onchange="updatePage()">
-                </p>
+                <input type="text" id="metric" placeholder="Metric" onchange="updatePage()">
                 <div id="tags"></div>
-                <p>
                 <button type="button" id="submitButton" class="btn btn-success" style="margin: 10px;">Get Data</button>
-                </p>
             </div>
         </div>
     </div>
